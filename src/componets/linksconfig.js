@@ -39,8 +39,7 @@ const Navbar = ({theme, handleTheme}) => {
             <li className="nav-item">
             <Link className= "nav-link" to='/iniciosesion'> Iniciar </Link>
   
-      <li></li>
-      
+ 
   
           </li>
 
