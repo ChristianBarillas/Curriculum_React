@@ -1,15 +1,16 @@
 import React from 'react';
 
-const Error404 = ({theme}) => {
+const Error404 = () => {
+   
     return (
 
-        <div className={theme}> 
+        <div> 
         <div className='error'>
            <span>Vuelve a intentar! No existe esta ruta!</span> 
         </div>
 
         </div>
     );
-};
+}
 
-export default Error404;
+export default Error404

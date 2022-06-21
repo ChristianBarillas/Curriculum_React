@@ -1,43 +1,4 @@
 
-* {  font-family: Noto Serifo, roboto; } 
-
-
- 
-
-.errortext {
-
-    position: relative;
-
-    width: 500px;
-    height: 500px;
-
-    margin: 0 auto;
-    color: white;
-    
-}
-
-.botondonacion{
-
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-padding-top: 200px;
-  
-    text-align: center;
-  
-
-
- position: relative;
-
-}
-
-.dark {
-    background-color: white;
-   filter: invert(1);
-
-}
-
-
 
    
 

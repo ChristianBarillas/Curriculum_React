@@ -1,19 +1,9 @@
-import Boton from '../componets/Pagos'
-
-const Donate = ({theme}) => {
+import React from "react";
+const Donate =()=> {
 
     return (
 
-        <div className={theme}> 
-        
-        <div className='botondonacion'>
-
-            <p >
-       <Boton/>
-            </p>
-        </div>
-
-        </div>
+        <div><h1>holaaa</h1></div>
     );
 }
 

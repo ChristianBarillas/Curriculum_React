@@ -1,13 +1,13 @@
 import React from "react"
 
-const Home = ({theme}) => {
+const Home = () => {
 
     return (
 
 
-        <div className={theme}>
+        <div>
 
-<div className="contenedor">
+<div >
 
 
 <h1>

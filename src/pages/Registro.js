@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Registro = ({theme}) => {
+const Registro =()=> {
   return (
-    <div className={theme}>
+    <div >
       
       Registro
       
       </div>
-  )
+  );
 }
 
 export default Registro

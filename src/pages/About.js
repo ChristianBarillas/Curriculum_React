@@ -1,10 +1,10 @@
 import React from "react"
 
-const About = ({theme}) => {
+const About = () => {
 
     return (
 
-        <div className= {theme}>
+        <div>
 
             <head>
 

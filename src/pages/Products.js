@@ -1,10 +1,10 @@
 import React from "react";
 
-const Proyects = ({theme}) => {
+const Products =()=> {
 
     return (
 
-        <div className={theme}>
+        <div>
 
             <h1>
                 Mis proyectos!!
@@ -13,5 +13,5 @@ const Proyects = ({theme}) => {
     );
 }
 
-export default Proyects
+export default Products
 

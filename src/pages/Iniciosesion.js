@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Iniciosesion = ({theme}) => {
+const Iniciosesion = () => {
   return (
-    <div className={theme}>Iniciosesion</div>
-  )
+    <div>Iniciosesion</div>
+  );
 }
 
 export default Iniciosesion
