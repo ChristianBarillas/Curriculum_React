@@ -1,6 +1,8 @@
 
 import React from "react";
-import Imagenes from "../../../assest/thefashionstore/Imagenes";
+import Carocel from "./Carocel";
+import Categorias from "./Categorias";
+import Relojes from "./Relojes";
 
 //constantes segun require
 
@@ -13,16 +15,28 @@ const Thefashionstore = ()=> {
 
   return(
 
-<header>
+<div>
 
-      <div>
-        
-        <img src= {Imagenes.img} alt= "heaaader" />
-        
-        
-       </div>
+  <header>
 
- </header>
+  <Carocel/> 
+
+  </header>
+
+
+
+  <body>
+
+<Categorias/>
+
+
+
+  </body>
+</div>
+
+
+
+  
 
 
 
