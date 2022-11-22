@@ -4,8 +4,8 @@ const Boton = () => {
 
     return (
 
-        <div>
-            <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <div >
+            <form action="https://www.paypal.com/donate" method="post" target="_blank"  >
                 <input type="hidden" name="hosted_button_id" value="B6UP6K2KS4E4G" />
                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                 <img alt="" border="0" src="https://www.paypal.com/en_SV/i/scr/pixel.gif" width="1" height="1" />

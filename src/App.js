@@ -1,5 +1,6 @@
 
 import React from "react";
+import './App'
 import Dashboard from "./componets/Navrouter/Dashboard";
 
 
@@ -14,6 +15,10 @@ const App = () => {
 return (
 
 <Dashboard/>
+
+
+
+
 
 );
  

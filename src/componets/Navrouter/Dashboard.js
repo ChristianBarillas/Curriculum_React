@@ -1,21 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
-import About from '../../pages/About';
 import Home from '../../pages/Home';
-import Donate from '../../pages/Donate';
 import Error404 from '../../pages/Error404';
-import Registro from '../../pages/Registro';
-import Iniciosesion from '../../pages/Iniciosesion';
-import Products from '../../pages/Products';
-
-
-
-
-//members sections
-import Thefashionstore from '../members/cliente1/Thefashionstore';
-
-
+import Contact from '../../pages/Contact';
 
 
 const Dashboard = () => {
@@ -27,14 +15,12 @@ const Dashboard = () => {
         <BrowserRouter> 
         <Navbar/>
         <Routes>
-          <Route  path='/about' element={<About/>} />
-            <Route path='/products' element={<Products />} />
-            <Route path='/donate' element={<Donate/>} />
-            <Route path='/registro' element={<Registro/>} />
-            <Route path='/iniciosesion' element={<Iniciosesion/>} />
-            <Route path= '/thefashionstore' element={<Thefashionstore/>} />
-            <Route path='/' element={<Home />} />
-            <Route path='*' element={<Error404/>} />
+        
+
+            <Route path = '/contact' element ={<Contact/>}/>
+            <Route path = '/home' element = {<Home/>}/>
+            <Route path = '/' element = {<Home/>}/>
+         <Route path='*' element={<Error404/>} />
         </Routes> 
       </BrowserRouter>
       
